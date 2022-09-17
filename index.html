@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bike Project</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/Bike logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header id="home" class="header">
+        <nav class="header-nav">
+          <div class="container">
+            <div class="header-nav__logo">The Project Bike</div>
+            <label for="burger-checkbox" class="burger-icon">☰</label>
+            <input id="burger-checkbox" type="checkbox">
+            <div class="header-nav__menu">
+              <a href="#home" class="header-nav__menu-item">Home</a>
+              <a href="#products" class="header-nav__menu-item">Products</a>
+              <a href="#contacts" class="header-nav__menu-item">Contacts</a>
+            </div>
+          </div>
+        </nav>
+        <div class="header-banner container">
+          <h1 class="header-banner__h1">THE BIKE</h1>
+          <div class="button-container">
+            <a href="#products" class="header-banner__button button"><span>Shop now</span></a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="main-products container">
+          <h2 id="products" class="main-products__h2">Products</h2>
+          <div class="main-products__list">
+            <article class="product-card">
+              <img class="product-card__image" src="img/Kidsbike.jpg" alt="Kids bike"/>
+              <h3 class="product-card__h3">Buying A Kids Bike?</h3>
+              <p class="product-card__description">
+                Your first bike is a chance to experience the fun and freedom of cycling, so getting 
+                the right size and style is essential. In this kids’ bike buyer's guide, we provide 
+                common-sense information to help you choose a children’s bike that's stylish, safe 
+                and the correct size.
+              </p>
+              <div class="product-card__buttons">
+                <button class="product-card__buttons-info button button-card">
+                  Learn More
+                </button>
+                <button class="product-card__buttons-buy button button-card">
+                  Buy
+                </button>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="img/mountain bike.jpg" alt="Mountain bike" />
+              <h3 class="product-card__h3">Mountain Bikes</h3>
+              <p class="product-card__description">
+                If you’re in the market for a new mountain bike, or looking to upgrade your ride, 
+                getting the size right is just about the most important thing. You’ll want a bike 
+                that feels comfortable, is responsive and is safe to ride. 
+                If you want your rides to be fast, fun and safe then read on.
+              </p>
+              <div class="product-card__buttons">
+                <button class="product-card__buttons-info button button-card">
+                  Learn More
+                </button>
+                <button class="product-card__buttons-buy button button-card">
+                  Buy
+                </button>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="img/roadbikes.webp" alt="Road bike"/>
+              <h3 class="product-card__h3">Road Bikes</h3>
+              <p class="product-card__description">
+                Few things are more exciting than buying a new road bike! However, if you don’t 
+                buy the right size, you’ll quickly find your new bike uncomfortable, and riding 
+                a bike that’s too big or small can cause injuries. Which is why getting the right 
+                size bike and setting it up correctly should be your main priority.
+              </p>
+              <div class="product-card__buttons">
+                <button class="product-card__buttons-info button button-card">
+                  Learn More
+                </button>
+                <button class="product-card__buttons-buy button button-card">
+                  Buy
+                </button>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer id="contacts" class="footer container">
+        <h2>Contact <span class="ui-brand">Us</span></h2>
+        <form action="" class="footer__contacts">
+          <input type="text" name="name" placeholder="name" />
+          <input type="email" name="email" placeholder="email" />
+          <button class="button button-card">Submit</button>
+        </form>
+      </footer>
+</body>
+</html>
